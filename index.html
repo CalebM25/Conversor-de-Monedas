@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conversor de divisas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="divisa">
+        <div class="nombre">Peso Argentino</div>
+        <input class="valor" type="number" value="1" data-cambio="921.7500" step=".25" 
+        onchange="valorModificado(this)" /> 
+    </div>
+    <div class="divisa">
+        <div class="nombre">Mexican Peso</div>
+        <input class="valor" type="number" value="1" data-cambio="17.6707" step=".25" 
+        onchange="valorModificado(this)" />
+    </div>
+    <div class="divisa">
+        <div class="nombre">Real Brasileño</div>
+        <input class="valor" type="number" value="1" data-cambio="5.4376" step=".25" 
+        onchange="valorModificado(this)" /> 
+    </div>
+    <div class="divisa">
+        <div class="nombre">Peso Chileno</div>
+        <input class="valor" type="number" value="1" data-cambio="913.7551" step=".25" 
+        onchange="valorModificado(this)" />
+    </div>
+    <div class="divisa">
+        <div class="nombre">Peso Colombiano</div>
+        <input class="valor" type="number" value="1" data-cambio="3986.9048" step=".25"
+        onchange="valorModificado(this)" />
+    </div>
+    <div class="divisa">
+        <div class="nombre">Dólar</div>
+        <input class="valor" type="number" value="1" data-cambio="1" step=".25" 
+        onchange="valorModificado(this)" />
+    </div> 
+    
+    <script src="scripts.js" type="text/javascript"></script>
+</body>
+</html>
